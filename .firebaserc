@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "smartgarden-19ad6": {
+      "hosting": {
+        "SmartGarden": [
+          "smartgarden-19ad6"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "smartgarden-19ad6"
+  }
+}
