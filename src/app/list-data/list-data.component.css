@@ -1,0 +1,60 @@
+body{
+background-color:aliceblue;
+overflow-y: hidden;
+
+}
+
+.seven{
+  height: 100px;
+  padding-left: 350px;
+  padding-right: 350px;
+  
+}
+.seven h1 {
+    text-align: center;
+        font-size:30px; font-weight:300; color:#222; letter-spacing:1px;
+        text-transform: uppercase;
+    padding-top: 30px;
+        display: grid;
+        grid-template-columns: 1fr max-content 1fr;
+        grid-template-rows: 27px 0;
+        grid-gap: 20px;
+        align-items: center;
+    }
+    
+    .seven h1:after,.seven h1:before {
+      box-shadow: 5px 5px 5px #1DB1DD;
+        content: " ";
+        display: block;
+        border-bottom: 1px solid #1DB1DD;
+        border-top: 1px solid #1DB1DD;
+        height: 5px;
+      background-color:#f8f8f8;
+    }
+
+    .inw{
+      padding-left: 100px;
+      padding-right: 100px;
+      padding-bottom: 10px;
+    }
+
+    table{
+      box-shadow: 5px 5px 5px 5px rgba(238, 102, 102, 0.74);
+     
+    }
+    .table-container{
+      width: 100%;
+      height: 422px;
+      overflow-y: scroll;
+      scrollbar-color: rebeccapurple green;
+      scrollbar-width: thin;
+    }
+   
+    table th{
+background-color: rgb(255, 127, 127);
+background: radial-gradient(circle, #1DB1DD, #23D0D2);
+position: -webkit-sticky;
+position: sticky;
+top: 0;
+z-index: 2;
+    }
